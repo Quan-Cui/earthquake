@@ -16,7 +16,9 @@ Imports:
     dplyr,
     leaflet,
     stringr,
-    lubridate
+    lubridate,
+    readr,
+    ggplot2
 Date: 2023-02-06
 VignetteBuilder: knitr
 BuildVignettes: yes

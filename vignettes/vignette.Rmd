@@ -4,7 +4,7 @@ author: "Quan Cui"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Capstone - eathquake plots}
+  %\VignetteIndexEntry{earthquake - eathquake plots}
   %\VignetteEngine{knitr::knitr}
   %\VignetteEncoding{UTF-8}
 ---

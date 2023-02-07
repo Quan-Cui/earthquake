@@ -5,11 +5,11 @@ library(testthat)
 test_that("filename", {
 
 
-  file_name       <- system.file("extdata", "signif.txt", package = "capstone")
+  file_name       <- system.file("extdata", "signif.txt", package = "earthquake")
 
   loading_data    <- file_name %>%
     readr::read_tsv() %>%
-    capstone::eq_clean_data()
+    earthquake::eq_clean_data()
 
   max_magnitude   <- loading_data %>%
     dplyr::filter(COUNTRY == "JORDAN") %>%
